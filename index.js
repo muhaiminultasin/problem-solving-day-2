@@ -64,11 +64,11 @@ console.log(myArea2)
 
 // 6. 
 
-const one = 'name';
-const two = 'age';
-const three = 'job';
+let one = 'name';
+let two = 'age';
+let three = 'job';
 
-const man = {
+let man = {
   [one]: 'John Doe',
   [two]: 30,
   [three]: 'Developer'
@@ -112,16 +112,16 @@ class MathUtil {
     }
 }
 
-const number = 5;
+let number = 5;
 // console.log(MathUtil.square(number));
 
 
 // 10. 
 
-const mySymbol = Symbol('mySymbol');
+let mySymbol = Symbol('mySymbol');
 
 
-const obj = {
+let obj = {
     [mySymbol]: 'This is a symbol property value'
 };
 
