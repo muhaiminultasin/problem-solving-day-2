@@ -104,5 +104,27 @@ let dog = new Dog("Sahin", 20, "red");
 // console.log(dog.speak());
 // console.log(cow.speak());
 
-// 8.
+// 9.
 
+class MathUtil {
+    static square(number) {
+        return number * number;
+    }
+}
+
+const number = 5;
+// console.log(MathUtil.square(number));
+
+
+// 10. 
+
+const mySymbol = Symbol('mySymbol');
+
+
+const obj = {
+    [mySymbol]: 'This is a symbol property value'
+};
+
+console.log(obj[mySymbol]);
+
+console.log(obj['mySymbol']);
